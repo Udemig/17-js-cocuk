@@ -1,0 +1,21 @@
+.paragraf {
+  font-size: 18px;
+  background-color: blue;
+  color: white;
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.paragraf:hover {
+  background-color: red;
+}
+
+#prg {
+  background-color: red;
+  color: white;
+}
+
+.example {
+  background-color: blue !important;
+}
