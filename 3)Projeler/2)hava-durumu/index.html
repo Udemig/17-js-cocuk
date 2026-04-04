@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hava Durumu</title>
+
+    <!-- Css Link -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- Fontawesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Container -->
+    <div class="container">
+      <!-- Konum Alanı -->
+      <div class="locations">
+        <button>London</button>
+        <button>Sydney</button>
+        <button>İstanbul</button>
+        <button>Tokyo</button>
+        <button>Paris</button>
+      </div>
+
+      <!-- Arama Alanı -->
+      <div class="search">
+        <form>
+          <input type="text" placeholder="Şehir Aratın..." />
+
+          <button id="search-btn">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+
+          <button>
+            <i class="fa-solid fa-location-dot"></i>
+          </button>
+        </form>
+
+        <div>
+          <span>°C</span> /
+          <span>°F</span>
+        </div>
+      </div>
+
+      <!-- Tarih -->
+      <p class="date">
+        <span class="full-date">04 Nisan 2026</span>
+        <span class="time">Saat 14:30</span>
+      </p>
+
+      <!-- Şehir -->
+      <h3 class="city">Malatya, Tr</h3>
+
+      <!-- Hava Durumu -->
+      <p class="status">Clouds</p>
+
+      <!-- Info Alanı -->
+      <div class="info">
+        <!-- Icon -->
+        <div class="icon">
+          <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="" />
+        </div>
+
+        <!-- Degree -->
+        <div class="degree">
+          <span>4.1°</span>
+        </div>
+
+        <!-- Info -->
+        <div class="info-areas">
+          <!-- Feel -->
+          <p>
+            <i class="fa-solid fa-temperature-half"></i>
+            <span>Hissedilen:</span>
+            <span class="feel">23.8°</span>
+          </p>
+
+          <!-- Humudity -->
+          <p>
+            <i class="fa-solid fa-droplet"></i>
+            <span>Nem:</span>
+            <span class="hum">50%</span>
+          </p>
+
+          <!-- Wind -->
+          <p>
+            <i class="fa-solid fa-wind"></i>
+            <span>Rüzgar:</span>
+            <span class="wind">50 km/h</span>
+          </p>
+        </div>
+      </div>
+
+      <!-- Bottom -->
+      <div class="bottom">
+        <!-- Area-1 -->
+        <div>
+          <i class="fa-solid fa-sun"></i>
+          <span>Doğuş:</span>
+          <span class="sunrise">7:01</span>
+        </div>
+
+        <!-- Area-2 -->
+        <div>
+          <i class="fa-solid fa-moon"></i>
+          <span>Batış:</span>
+          <span class="sunset">18:01</span>
+        </div>
+
+        <!-- Area-3 -->
+        <div>
+          <i class="fa-solid fa-temperature-arrow-up"></i>
+          <span>Yüksek:</span>
+          <span class="max">25°</span>
+        </div>
+
+        <!-- Area-4 -->
+        <div>
+          <i class="fa-solid fa-temperature-arrow-down"></i>
+          <span>Düşük:</span>
+          <span class="min">15°</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Js Bağlantısı -->
+    <script src="main.js"></script>
+  </body>
+</html>
